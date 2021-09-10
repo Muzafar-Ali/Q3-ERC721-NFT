@@ -424,6 +424,9 @@ contract MyNFT is ERC721,IERC721Metadata{
      * token will be the concatenation of the `baseURI` and the `tokenId`. Empty
      * by default, can be overriden in child contracts.
      */
+     
+     // following value will be entered in base URI
+     // https://my-json-server.typicode.com/Muzafar-Ali/NFT_JSON/tokensDetails/
     function setBaseURI(string memory setURI) external virtual returns (string memory) {
         return baseURI = setURI;
     }
