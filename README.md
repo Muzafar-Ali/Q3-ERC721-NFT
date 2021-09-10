@@ -8,6 +8,8 @@ contract Address : 0x8C44b8c31CDE827C4AF7a2A2Accf6Dd2C40C6Fa1
 
 test Network : rinkeby
 
+base URI is : https://my-json-server.typicode.com/Muzafar-Ali/NFT_JSON/tokensDetails/(here id of token is placed ie. 1..2..3 etc)
+
 # Create an ERC721 Token with the following requirements
 
     1) Tuser can only buy tokens when the sale is started
