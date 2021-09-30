@@ -4,9 +4,8 @@
 Roll No: IOT045448 
 BCC Batch 34
 
-contract Address : 0x8C44b8c31CDE827C4AF7a2A2Accf6Dd2C40C6Fa1
+contract Address : 0x8C44b8c31CDE827C4AF7a2A2Accf6Dd2C40C6Fa1  - https://rinkeby.etherscan.io/
 
-test Network : rinkeby
 
 base URI is : https://my-json-server.typicode.com/Muzafar-Ali/NFT_JSON/tokensDetails/ (here id of token will take place i.e 1..2  so on)
 
