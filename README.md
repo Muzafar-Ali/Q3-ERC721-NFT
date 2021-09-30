@@ -9,7 +9,7 @@ contract Address : 0x8C44b8c31CDE827C4AF7a2A2Accf6Dd2C40C6Fa1  - https://rinkeby
 
 base URI is : https://my-json-server.typicode.com/Muzafar-Ali/NFT_JSON/tokensDetails/ (here id of token will take place i.e 1..2  so on)
 
-# Create an ERC721 Token with the following requirements
+ Create an ERC721 Token with the following requirements
 
     1) user can only buy tokens when the sale is started
     2) the sale should be ended within 30 days
