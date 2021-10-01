@@ -246,7 +246,8 @@ contract ERC721 is Context, ERC165, IERC721{
     function _mint(address to, uint256 tokenId) internal virtual {
         require(to != address(0), "ERC721: mint to the zero address");
         require(!_exists(tokenId), "ERC721: token already minted");
-        //      !_owners[tokenId] 
+        //     (!_owners[tokenId], "ERC721: token already minted")
+        //     (_owners[tokenId] == address(0), "ERC721: token already minted")
         
         _beforeTokenTransfer(address(0), to, tokenId);
 
