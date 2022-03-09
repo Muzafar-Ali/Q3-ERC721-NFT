@@ -377,12 +377,11 @@ contract ERC721 is Context, ERC165, IERC721{
 }
 
 /*
-    Assignment-4 
+     
     Create an ERC721 Token with the following requirements
-    1) Tuser can only buy tokens when the sale is started
-    2) the sale should be ended within 30 days
-    3) the owner can set base URI
-    4) the owner can set the price of NFT
+    1) user can only buy tokens when the sale is on 
+    2) Sale should end in 30 days
+    3) Only owner can set base URI and the price of NFT
     5) NFT minting hard limit is 100
 
     the contract should be deployed on any ethereum test network by using a hardhat or truffle
